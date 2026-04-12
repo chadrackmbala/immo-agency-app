@@ -1,15 +1,17 @@
-import type { Product } from './context/ProductsContext';
+import useProductsStore from './context/ProductsContext';
 
-type Props = {
-  productData: Product;
-};
+function Products() {
+  const products = useProductsStore(state => state.products);
 
-function Products({ productData }: Props) {
   return (
-    <div>
-      <img src={productData.image} alt="" />
-      <h2>{productData.title}</h2>
-      <p>{productData.text}</p>
+    <div className="flex gap-4 flex-wrap">
+      {products.map(product => (
+        <div key={product.id}>
+          <img src={product.image} alt="" />
+          <h2>{product.title}</h2>
+          <p>{product.text}</p>
+        </div>
+      ))}
     </div>
   );
 }

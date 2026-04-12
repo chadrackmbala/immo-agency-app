@@ -1,4 +1,3 @@
-import React from 'react';
 import { QuiSommesNous, Valeurs, Mission, Vision } from './images/index';
 import { ScrollFadeIn } from './ScrollFadeIn';
 

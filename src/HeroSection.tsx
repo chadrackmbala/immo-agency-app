@@ -1,20 +1,20 @@
 import './App.css'
 import { Video } from './images/index';
-import { styled } from '@mui/material/styles';
+// import { styled } from '@mui/material/styles';
 import { ScrollFadeIn } from './ScrollFadeIn';
 
-const LogoImg = styled('img')(({ theme }) => ({
-    cursor: 'pointer',
-    width: 130,
-    height: 120,
-    marginTop: -60,
-    marginBottom: -50,
-    transition: 'width 0.3s, height 0.3s',
-    [theme.breakpoints.up('lg')]: {
-        width: 200,
-        height: 200,
-    },
-}));
+// const LogoImg = styled('img')(({ theme }) => ({
+//     cursor: 'pointer',
+//     width: 130,
+//     height: 120,
+//     marginTop: -60,
+//     marginBottom: -50,
+//     transition: 'width 0.3s, height 0.3s',
+//     [theme.breakpoints.up('lg')]: {
+//         width: 200,
+//         height: 200,
+//     },
+// }));
 
 function HeroSection() {
     return (

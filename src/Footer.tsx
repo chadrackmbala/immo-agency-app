@@ -1,5 +1,4 @@
 import './App.css'
-import Hamburger from "hamburger-react";
 import NewsLetter from './NewsLetter';
 import Contacts from './Contacts';
 import { FaFacebook } from "react-icons/fa6";
