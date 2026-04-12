@@ -1,0 +1,1 @@
+export type SubMenu = 'location' | 'vente' | 'achat';
