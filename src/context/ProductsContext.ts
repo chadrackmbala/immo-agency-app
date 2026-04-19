@@ -28,7 +28,7 @@ const useProductsStore = create<ProductsStore>((set) => ({
         id: item.id,
         image: item.image,
         text: item.text,
-        title: item.tittle, // correction ici
+        title: item.title,
       }));
 
       set({ products: formatted });
