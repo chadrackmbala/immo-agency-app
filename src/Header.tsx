@@ -1,11 +1,11 @@
 import './App.css';
 import './index.css';
-import Logo from '../../../TypeScript/Immo-Agency/src/Logo';
-import NavLinks from '../../../TypeScript/Immo-Agency/src/NavLinks';
-import HamburgerComponent from '../../../TypeScript/Immo-Agency/src/HamburgerComponent';
+import Logo from './Logo';
+import NavLinks from './NavLinks';
+import HamburgerComponent from './HamburgerComponent';
 import { useState, useEffect } from 'react';
-import SearchBar from '../../../TypeScript/Immo-Agency/src/SearchBar';
-import { ScrollFadeIn } from '../../../TypeScript/Immo-Agency/src/ScrollFadeIn';
+import SearchBar from './SearchBar';
+import { ScrollFadeIn } from './ScrollFadeIn';
 
 function Header() {
 

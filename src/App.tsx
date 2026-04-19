@@ -19,6 +19,7 @@ import VenteMaison from './VenteMaison';
 import VenteAppartement from './VenteAppartement';
 import Ajout from './Ajout';
 import ContactForm from './ContactForm';
+import GestionLocative from './GestionLocative';
 
 function App() {
 
@@ -35,6 +36,7 @@ function App() {
             <Route path="/location" element={<Location />} />
             <Route path="/Vente" element={<Vente />} />
             <Route path="/Achat" element={<Achat />} />
+            <Route path="/gestion-locative" element={<GestionLocative />} />
             <Route path="about-us" element={<AboutUs />} />
             <Route path="location-maison" element={<LocationMaison />} />
             <Route path="location-appartement" element={<LocationAppartement />} />

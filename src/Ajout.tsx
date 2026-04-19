@@ -1,6 +1,6 @@
 import TextField from '@mui/material/TextField';
 import MenuItem from '@mui/material/MenuItem';
-import UploadMedia from './UploadeMedia';
+import UploadImage from './UploadeMedia';
 import { ScrollFadeIn } from './ScrollFadeIn';
 import Button from "@mui/material/Button";
 
@@ -102,7 +102,7 @@ function Ajout() {
           </div>
           <div>
             <ScrollFadeIn>
-              <UploadMedia />
+              <UploadImage />
             </ScrollFadeIn>
           </div>
         </div>

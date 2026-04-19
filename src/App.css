@@ -182,3 +182,33 @@
     border-right-color: var(--border);
   }
 }
+
+/* Animation Fade In and Slide Up */
+@keyframes fadein-up {
+  from {
+    opacity: 0;
+    transform: translateY(20px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+.animate-fadein-up {
+  animation: fadein-up 0.6s ease-out forwards;
+}
+
+/* Animation Marquee for scrolling logos */
+@keyframes marquee {
+  0% {
+    transform: translateX(0);
+  }
+  100% {
+    transform: translateX(-100%);
+  }
+}
+
+.animate-marquee {
+  animation: marquee 20s linear infinite;
+}

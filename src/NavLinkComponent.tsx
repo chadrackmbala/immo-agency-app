@@ -4,7 +4,7 @@ import ChevronRightIcon from '@mui/icons-material/ChevronRight';
 import ExpandMoreIcon from '@mui/icons-material/ExpandMore';
 import Operations from './Operations';
 import useMenuStore from './Provider';
-import useOperationContextProvider from './OperationsContextProvider.js';
+import useOperationContextProvider from './OperationsContextProvider';
 
 function NavLinkComponent() {
     const [isToggleOperations, setIsToggleOperations] = useState(false);
