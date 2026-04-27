@@ -1,9 +1,16 @@
+import { useEffect } from 'react';
+import { Outlet, useLocation } from 'react-router-dom';
 import Footer from './Footer'
 import Header from './Header'
 import BackToTop from './BackToTop'
-import { Outlet } from 'react-router-dom';
 
 function Layout() {
+    const location = useLocation();
+
+    useEffect(() => {
+        window.scrollTo({ top: 0, left: 0, behavior: 'auto' });
+    }, [location.pathname]);
+
     return (
         <>
         {/* <ScrollFadeIn>
